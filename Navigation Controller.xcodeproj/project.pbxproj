@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BE421B31D44970000E5C9F6 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE2E1D43A7AF008E08AE /* Home.m */; };
 		4BE7EE291D43A7AF008E08AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE281D43A7AF008E08AE /* main.m */; };
 		4BE7EE2C1D43A7AF008E08AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE2B1D43A7AF008E08AE /* AppDelegate.m */; };
-		4BE7EE2F1D43A7AF008E08AE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE2E1D43A7AF008E08AE /* Home.m */; };
 		4BE7EE321D43A7AF008E08AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE301D43A7AF008E08AE /* Main.storyboard */; };
 		4BE7EE351D43A7AF008E08AE /* Navigation_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE331D43A7AF008E08AE /* Navigation_Controller.xcdatamodeld */; };
 		4BE7EE371D43A7AF008E08AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE361D43A7AF008E08AE /* Assets.xcassets */; };
 		4BE7EE3A1D43A7AF008E08AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE381D43A7AF008E08AE /* LaunchScreen.storyboard */; };
+		4BE7EE471D43AE4B008E08AE /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE451D43AE4B008E08AE /* cellHome.m */; };
+		4BE7EE481D43AE4B008E08AE /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE461D43AE4B008E08AE /* cellHome.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		4BE7EE361D43A7AF008E08AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BE7EE391D43A7AF008E08AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BE7EE3B1D43A7AF008E08AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE7EE441D43AE4B008E08AE /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
+		4BE7EE451D43AE4B008E08AE /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
+		4BE7EE461D43AE4B008E08AE /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 		4BE7EE261D43A7AF008E08AE /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4BE7EE431D43AE09008E08AE /* Cells */,
 				4BE7EE421D43A860008E08AE /* Main */,
 				4BE7EE411D43A855008E08AE /* Controllers */,
 				4BE7EE301D43A7AF008E08AE /* Main.storyboard */,
@@ -96,6 +102,16 @@
 				4BE7EE2B1D43A7AF008E08AE /* AppDelegate.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		4BE7EE431D43AE09008E08AE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7EE441D43AE4B008E08AE /* cellHome.h */,
+				4BE7EE451D43AE4B008E08AE /* cellHome.m */,
+				4BE7EE461D43AE4B008E08AE /* cellHome.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +173,7 @@
 			files = (
 				4BE7EE3A1D43A7AF008E08AE /* LaunchScreen.storyboard in Resources */,
 				4BE7EE371D43A7AF008E08AE /* Assets.xcassets in Resources */,
+				4BE7EE481D43AE4B008E08AE /* cellHome.xib in Resources */,
 				4BE7EE321D43A7AF008E08AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,9 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE7EE2F1D43A7AF008E08AE /* Home.m in Sources */,
+				4BE421B31D44970000E5C9F6 /* Home.m in Sources */,
 				4BE7EE351D43A7AF008E08AE /* Navigation_Controller.xcdatamodeld in Sources */,
 				4BE7EE2C1D43A7AF008E08AE /* AppDelegate.m in Sources */,
+				4BE7EE471D43AE4B008E08AE /* cellHome.m in Sources */,
 				4BE7EE291D43A7AF008E08AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +338,7 @@
 				4BE7EE401D43A7AF008E08AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
