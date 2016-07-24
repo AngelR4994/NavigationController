@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "cellHome.h"
+#import "FoodDetails.h"
+
 @interface Home : UIViewController
 
 
