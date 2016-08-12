@@ -8,15 +8,19 @@
 
 #import "Home.h"
 
+NSUInteger intMuniciplitySelected;
 
 @interface Home ()
-@property NSMutableArray *FoodTitles;
-@property NSMutableArray *FoodDescriptions;
-@property NSMutableArray *FoodPhotos;
+
+@property NSMutableArray *MunicipalyDescriptions;
+@property NSMutableArray *MunicipalyPhotos;
+@property NSMutableArray *MunicipalityTitles;
 
 @property NSString *stTitleSelected;
 @property NSString *stDescriptionSelected;
 @property NSString *stPhotoSelected;
+@property NSString *StateSelected;
+
 
 @end
 
@@ -35,10 +39,43 @@
 }
 
 //-------------------------------------------------------------------------------
-- (void)initController {
-    self.FoodTitles   = [[NSMutableArray alloc] initWithObjects: @"Desayuno", @"Colación", @"Comida", @"Colación",@"Cena", nil];
-    self.FoodPhotos   = [[NSMutableArray alloc] initWithObjects: @"desayuno.jpg", @"colacion.jpg", @"comida.jpg", @"colacion2.jpg",@"cena.jpg", nil];
-    self.FoodDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Empieza bien el día con un excelente desayuno", @"¿Tines hambre? elige un aperitivo para calmar el hambre", @"Hora de comer, ¿qué apetece?" , @"¿Tines hambre? elige un aperitivo para calmar el hambre", @"Última comida del día!!", nil];
+- (void)initController {//Funtion to initialize the variables.
+    
+    switch(intMuniciplitySelected)
+    {
+        case 0://Jalisco
+            self.MunicipalityTitles = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Tequila", @"Tomatlán", nil];
+            self.MunicipalyPhotos   = [[NSMutableArray alloc] initWithObjects: @"gua.jpg", @"zap.jpg", @"tla.jpg", @"teq.jpg", @"tom.jpg", nil];
+            self.MunicipalyDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Tierra de charros, jaripeos, mariachi y tequila.", @"El municipio más biodiverso de México", @"" , @"Concientete, te lo mereces", @"Has realidad tu sueños", nil];
+            break;
+        case 1://Oaxaca
+            self.MunicipalityTitles = [[NSMutableArray alloc] initWithObjects: @"Abejones", @"Acatlán de Pérez Figueroa", @"Oaxaca", @"Huatulco", @"Tomatlán", nil];
+            self.MunicipalyPhotos   = [[NSMutableArray alloc] initWithObjects: @"1.jpg", @"2.jpg", @"3.jpg", @"4.jpg", @"5.jpg", nil];
+            self.MunicipalyDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Tierra de charros, jaripeos, mariachi y tequila.", @"El municipio más biodiverso de México", @"" , @"Concientete, te lo mereces", @"Has realidad tu sueños", nil];
+        break;
+        case 2://Yucatán
+            self.MunicipalityTitles = [[NSMutableArray alloc] initWithObjects: @"Akil", @"Baca", @"Cacalchén", @"Cantamayec", @"Celestún", nil];
+            self.MunicipalyPhotos   = [[NSMutableArray alloc] initWithObjects: @"6.jpg", @"7.jpg", @"8.jpg", @"9.jpg", @"10.jpg", nil];
+            self.MunicipalyDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Solo se vive una vez, nimate!!", @"El municipio más biodiverso de México", @"" , @"Concientete, te lo mereces", @"Has realidad tu sueños", nil];
+            break;
+        case 3://Chiapas
+            self.MunicipalityTitles = [[NSMutableArray alloc] initWithObjects: @"Abejones", @"Acatlán de Pérez Figueroa", @"Tlaquepaque", @"Tequila", @"Tomatlán", nil];
+            self.MunicipalyPhotos   = [[NSMutableArray alloc] initWithObjects: @"1.jpg", @"2.jpg", @"3.jpg", @"4.jpg", @"5.jpg", nil];
+            self.MunicipalyDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Solo se vive una vez, nimate!!", @"El municipio más biodiverso de México", @"" , @"Concientete, te lo mereces", @"Has realidad tu sueños", nil];
+            break;
+        case 4://Querétaro
+            self.MunicipalityTitles = [[NSMutableArray alloc] initWithObjects: @"Colón", @"Corregidora", @"Huimilpan", @"Peñamiller", @"Querétaro", nil];
+            self.MunicipalyPhotos   = [[NSMutableArray alloc] initWithObjects: @"6.jpg", @"7.jpg", @"8.jpg", @"9.jpg", @"10.jpg", nil];
+            self.MunicipalyDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Solo se vive una vez, nimate!!", @"El municipio más biodiverso de México", @"" , @"Concientete, te lo mereces", @"Has realidad tu sueños", nil];
+            break;
+
+        default://Jalisco
+            self.MunicipalityTitles = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Tequila", @"Tomatlán", nil];
+            self.MunicipalyPhotos   = [[NSMutableArray alloc] initWithObjects: @"Jalisco.png", @"Oaxaca.png", @"Yucatán.jpg", @"Chiapas.jpg", @"Querétaro.jpg", nil];
+            self.MunicipalyDescriptions   = [[NSMutableArray alloc] initWithObjects: @"Solo se vive una vez, nimate!!", @"El municipio más biodiverso de México", @"" , @"Concientete, te lo mereces", @"Has realidad tu sueños", nil];
+
+        break;
+    }
 }
 
 /**********************************************************************************************/
@@ -49,7 +86,7 @@
 }
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.FoodTitles.count;
+    return self.MunicipalityTitles.count;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -65,17 +102,19 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"cellHome"];
     }
     //Fill cell with info from arrays
-    cell.lblFood.text = self.FoodTitles[indexPath.row];
-    cell.lblDescription.text= self.FoodDescriptions[indexPath.row];
-    cell.imgFood.image =[UIImage imageNamed:self.FoodPhotos[indexPath.row]];
+    
+    cell.lblFood.text = self.MunicipalityTitles[indexPath.row];
+    cell.lblDescription.text= self.MunicipalyDescriptions[indexPath.row];
+    cell.imgFood.image =[UIImage imageNamed:self.MunicipalyPhotos[indexPath.row]];
     
     return cell;
 }
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    self.stTitleSelected        =   self.FoodTitles[indexPath.row];
-    self.stDescriptionSelected  =   self.FoodDescriptions[indexPath.row];
-    self.stPhotoSelected        =   self.FoodPhotos[indexPath.row];
+    
+    self.stTitleSelected        =   self.MunicipalityTitles[indexPath.row];
+    self.stDescriptionSelected  =   self.MunicipalyDescriptions[indexPath.row];
+    self.stPhotoSelected        =   self.MunicipalyPhotos[indexPath.row];
     [self performSegueWithIdentifier:@"FoodDetails" sender:self];
     
 }

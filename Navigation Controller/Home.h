@@ -10,8 +10,11 @@
 #import "cellHome.h"
 #import "FoodDetails.h"
 
+extern NSUInteger intMuniciplitySelected;
+
 @interface Home : UIViewController
 
+@property  NSString *StateTitle;
 
 @end
 

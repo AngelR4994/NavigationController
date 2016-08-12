@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B466A681D59638E00E6A284 /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B466A671D59638E00E6A284 /* States.m */; };
+		4B466A6C1D5963FF00E6A284 /* cellStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B466A6A1D5963FF00E6A284 /* cellStates.m */; };
+		4B466A6D1D5963FF00E6A284 /* cellStates.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B466A6B1D5963FF00E6A284 /* cellStates.xib */; };
+		4B4A62931D5C205A00BE5046 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62841D5C205A00BE5046 /* 1.jpg */; };
+		4B4A62941D5C205A00BE5046 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62851D5C205A00BE5046 /* 10.jpg */; };
+		4B4A62951D5C205A00BE5046 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62861D5C205A00BE5046 /* 2.jpg */; };
+		4B4A62961D5C205A00BE5046 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62871D5C205A00BE5046 /* 3.jpg */; };
+		4B4A62971D5C205A00BE5046 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62881D5C205A00BE5046 /* 4.jpg */; };
+		4B4A62981D5C205A00BE5046 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62891D5C205A00BE5046 /* 5.jpg */; };
+		4B4A62991D5C205A00BE5046 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A628A1D5C205A00BE5046 /* 7.jpg */; };
+		4B4A629A1D5C205A00BE5046 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A628B1D5C205A00BE5046 /* 8.jpg */; };
+		4B4A629B1D5C205A00BE5046 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A628C1D5C205A00BE5046 /* 9.jpg */; };
+		4B4A629C1D5C205A00BE5046 /* abe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A628D1D5C205A00BE5046 /* abe.jpg */; };
+		4B4A629D1D5C205A00BE5046 /* gua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A628E1D5C205A00BE5046 /* gua.jpg */; };
+		4B4A629E1D5C205A00BE5046 /* teq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A628F1D5C205A00BE5046 /* teq.jpg */; };
+		4B4A629F1D5C205A00BE5046 /* tla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62901D5C205A00BE5046 /* tla.jpg */; };
+		4B4A62A01D5C205A00BE5046 /* tom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62911D5C205A00BE5046 /* tom.jpg */; };
+		4B4A62A11D5C205A00BE5046 /* Zap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62921D5C205A00BE5046 /* Zap.jpg */; };
+		4B4A62A31D5C2BCC00BE5046 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B4A62A21D5C2BCC00BE5046 /* 6.jpg */; };
 		4BE421B31D44970000E5C9F6 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE2E1D43A7AF008E08AE /* Home.m */; };
-		4BE421BB1D452E1700E5C9F6 /* cena.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE421B61D452E1700E5C9F6 /* cena.jpg */; };
-		4BE421BC1D452E1700E5C9F6 /* colacion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE421B71D452E1700E5C9F6 /* colacion.jpg */; };
-		4BE421BD1D452E1700E5C9F6 /* colacion2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE421B81D452E1700E5C9F6 /* colacion2.jpg */; };
-		4BE421BE1D452E1700E5C9F6 /* comida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE421B91D452E1700E5C9F6 /* comida.jpg */; };
-		4BE421BF1D452E1700E5C9F6 /* desayuno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE421BA1D452E1700E5C9F6 /* desayuno.jpg */; };
 		4BE421C21D45543800E5C9F6 /* FoodDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE421C11D45543800E5C9F6 /* FoodDetails.m */; };
+		4BE51E001D4EC3B60005794F /* Chiapas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE51DFB1D4EC3B60005794F /* Chiapas.jpg */; };
+		4BE51E011D4EC3B60005794F /* Jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE51DFC1D4EC3B60005794F /* Jalisco.png */; };
+		4BE51E021D4EC3B60005794F /* Oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BE51DFD1D4EC3B60005794F /* Oaxaca.png */; };
+		4BE51E031D4EC3B60005794F /* Querétaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE51DFE1D4EC3B60005794F /* Querétaro.jpg */; };
+		4BE51E041D4EC3B60005794F /* Yucatán.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE51DFF1D4EC3B60005794F /* Yucatán.jpg */; };
 		4BE7EE291D43A7AF008E08AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE281D43A7AF008E08AE /* main.m */; };
 		4BE7EE2C1D43A7AF008E08AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EE2B1D43A7AF008E08AE /* AppDelegate.m */; };
 		4BE7EE321D43A7AF008E08AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE301D43A7AF008E08AE /* Main.storyboard */; };
@@ -25,13 +44,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4BE421B61D452E1700E5C9F6 /* cena.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cena.jpg; sourceTree = "<group>"; };
-		4BE421B71D452E1700E5C9F6 /* colacion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colacion.jpg; sourceTree = "<group>"; };
-		4BE421B81D452E1700E5C9F6 /* colacion2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colacion2.jpg; sourceTree = "<group>"; };
-		4BE421B91D452E1700E5C9F6 /* comida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comida.jpg; sourceTree = "<group>"; };
-		4BE421BA1D452E1700E5C9F6 /* desayuno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desayuno.jpg; sourceTree = "<group>"; };
+		4B466A661D59638E00E6A284 /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
+		4B466A671D59638E00E6A284 /* States.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = States.m; sourceTree = "<group>"; };
+		4B466A691D5963FF00E6A284 /* cellStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStates.h; sourceTree = "<group>"; };
+		4B466A6A1D5963FF00E6A284 /* cellStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellStates.m; sourceTree = "<group>"; };
+		4B466A6B1D5963FF00E6A284 /* cellStates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellStates.xib; sourceTree = "<group>"; };
+		4B4A62841D5C205A00BE5046 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		4B4A62851D5C205A00BE5046 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		4B4A62861D5C205A00BE5046 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4B4A62871D5C205A00BE5046 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4B4A62881D5C205A00BE5046 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		4B4A62891D5C205A00BE5046 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		4B4A628A1D5C205A00BE5046 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		4B4A628B1D5C205A00BE5046 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		4B4A628C1D5C205A00BE5046 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		4B4A628D1D5C205A00BE5046 /* abe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abe.jpg; sourceTree = "<group>"; };
+		4B4A628E1D5C205A00BE5046 /* gua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gua.jpg; sourceTree = "<group>"; };
+		4B4A628F1D5C205A00BE5046 /* teq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teq.jpg; sourceTree = "<group>"; };
+		4B4A62901D5C205A00BE5046 /* tla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tla.jpg; sourceTree = "<group>"; };
+		4B4A62911D5C205A00BE5046 /* tom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tom.jpg; sourceTree = "<group>"; };
+		4B4A62921D5C205A00BE5046 /* Zap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zap.jpg; sourceTree = "<group>"; };
+		4B4A62A21D5C2BCC00BE5046 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		4BE421C01D45543800E5C9F6 /* FoodDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetails.h; sourceTree = "<group>"; };
 		4BE421C11D45543800E5C9F6 /* FoodDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetails.m; sourceTree = "<group>"; };
+		4BE51DFB1D4EC3B60005794F /* Chiapas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chiapas.jpg; sourceTree = "<group>"; };
+		4BE51DFC1D4EC3B60005794F /* Jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jalisco.png; sourceTree = "<group>"; };
+		4BE51DFD1D4EC3B60005794F /* Oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oaxaca.png; sourceTree = "<group>"; };
+		4BE51DFE1D4EC3B60005794F /* Querétaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Querétaro.jpg"; sourceTree = "<group>"; };
+		4BE51DFF1D4EC3B60005794F /* Yucatán.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yucatán.jpg"; sourceTree = "<group>"; };
 		4BE7EE241D43A7AF008E08AE /* Navigation Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE7EE281D43A7AF008E08AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BE7EE2A1D43A7AF008E08AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,16 +99,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BE421B51D452E1700E5C9F6 /* Imgs */ = {
+		4B0658031D5697160089AC06 /* Monicipaly */ = {
 			isa = PBXGroup;
 			children = (
-				4BE421B61D452E1700E5C9F6 /* cena.jpg */,
-				4BE421B71D452E1700E5C9F6 /* colacion.jpg */,
-				4BE421B81D452E1700E5C9F6 /* colacion2.jpg */,
-				4BE421B91D452E1700E5C9F6 /* comida.jpg */,
-				4BE421BA1D452E1700E5C9F6 /* desayuno.jpg */,
+				4BE7EE441D43AE4B008E08AE /* cellHome.h */,
+				4BE7EE451D43AE4B008E08AE /* cellHome.m */,
+				4BE7EE461D43AE4B008E08AE /* cellHome.xib */,
 			);
-			path = Imgs;
+			name = Monicipaly;
+			sourceTree = "<group>";
+		};
+		4B0658041D5697260089AC06 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4B466A691D5963FF00E6A284 /* cellStates.h */,
+				4B466A6A1D5963FF00E6A284 /* cellStates.m */,
+				4B466A6B1D5963FF00E6A284 /* cellStates.xib */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		4B4A62831D5C205A00BE5046 /* Municipalities */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A62A21D5C2BCC00BE5046 /* 6.jpg */,
+				4B4A62841D5C205A00BE5046 /* 1.jpg */,
+				4B4A62851D5C205A00BE5046 /* 10.jpg */,
+				4B4A62861D5C205A00BE5046 /* 2.jpg */,
+				4B4A62871D5C205A00BE5046 /* 3.jpg */,
+				4B4A62881D5C205A00BE5046 /* 4.jpg */,
+				4B4A62891D5C205A00BE5046 /* 5.jpg */,
+				4B4A628A1D5C205A00BE5046 /* 7.jpg */,
+				4B4A628B1D5C205A00BE5046 /* 8.jpg */,
+				4B4A628C1D5C205A00BE5046 /* 9.jpg */,
+				4B4A628D1D5C205A00BE5046 /* abe.jpg */,
+				4B4A628E1D5C205A00BE5046 /* gua.jpg */,
+				4B4A628F1D5C205A00BE5046 /* teq.jpg */,
+				4B4A62901D5C205A00BE5046 /* tla.jpg */,
+				4B4A62911D5C205A00BE5046 /* tom.jpg */,
+				4B4A62921D5C205A00BE5046 /* Zap.jpg */,
+			);
+			path = Municipalities;
+			sourceTree = "<group>";
+		};
+		4BE51DFA1D4EC3B60005794F /* ImgsStates */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A62831D5C205A00BE5046 /* Municipalities */,
+				4BE51DFB1D4EC3B60005794F /* Chiapas.jpg */,
+				4BE51DFC1D4EC3B60005794F /* Jalisco.png */,
+				4BE51DFD1D4EC3B60005794F /* Oaxaca.png */,
+				4BE51DFE1D4EC3B60005794F /* Querétaro.jpg */,
+				4BE51DFF1D4EC3B60005794F /* Yucatán.jpg */,
+			);
+			path = ImgsStates;
 			sourceTree = "<group>";
 		};
 		4BE7EE1B1D43A7AE008E08AE = {
@@ -90,7 +174,7 @@
 		4BE7EE261D43A7AF008E08AE /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4BE421B51D452E1700E5C9F6 /* Imgs */,
+				4BE51DFA1D4EC3B60005794F /* ImgsStates */,
 				4BE7EE431D43AE09008E08AE /* Cells */,
 				4BE7EE421D43A860008E08AE /* Main */,
 				4BE7EE411D43A855008E08AE /* Controllers */,
@@ -119,6 +203,8 @@
 				4BE7EE2E1D43A7AF008E08AE /* Home.m */,
 				4BE421C01D45543800E5C9F6 /* FoodDetails.h */,
 				4BE421C11D45543800E5C9F6 /* FoodDetails.m */,
+				4B466A661D59638E00E6A284 /* States.h */,
+				4B466A671D59638E00E6A284 /* States.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -135,9 +221,8 @@
 		4BE7EE431D43AE09008E08AE /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				4BE7EE441D43AE4B008E08AE /* cellHome.h */,
-				4BE7EE451D43AE4B008E08AE /* cellHome.m */,
-				4BE7EE461D43AE4B008E08AE /* cellHome.xib */,
+				4B0658041D5697260089AC06 /* State */,
+				4B0658031D5697160089AC06 /* Monicipaly */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -199,14 +284,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4A62931D5C205A00BE5046 /* 1.jpg in Resources */,
 				4BE7EE3A1D43A7AF008E08AE /* LaunchScreen.storyboard in Resources */,
-				4BE421BC1D452E1700E5C9F6 /* colacion.jpg in Resources */,
-				4BE421BD1D452E1700E5C9F6 /* colacion2.jpg in Resources */,
-				4BE421BB1D452E1700E5C9F6 /* cena.jpg in Resources */,
+				4B4A62A31D5C2BCC00BE5046 /* 6.jpg in Resources */,
+				4B466A6D1D5963FF00E6A284 /* cellStates.xib in Resources */,
+				4B4A62971D5C205A00BE5046 /* 4.jpg in Resources */,
+				4BE51E021D4EC3B60005794F /* Oaxaca.png in Resources */,
+				4BE51E011D4EC3B60005794F /* Jalisco.png in Resources */,
+				4B4A62A01D5C205A00BE5046 /* tom.jpg in Resources */,
+				4B4A629D1D5C205A00BE5046 /* gua.jpg in Resources */,
+				4B4A629C1D5C205A00BE5046 /* abe.jpg in Resources */,
+				4B4A62961D5C205A00BE5046 /* 3.jpg in Resources */,
+				4B4A62A11D5C205A00BE5046 /* Zap.jpg in Resources */,
 				4BE7EE371D43A7AF008E08AE /* Assets.xcassets in Resources */,
+				4B4A629E1D5C205A00BE5046 /* teq.jpg in Resources */,
+				4B4A629B1D5C205A00BE5046 /* 9.jpg in Resources */,
+				4BE51E031D4EC3B60005794F /* Querétaro.jpg in Resources */,
+				4B4A62981D5C205A00BE5046 /* 5.jpg in Resources */,
+				4B4A62991D5C205A00BE5046 /* 7.jpg in Resources */,
+				4BE51E001D4EC3B60005794F /* Chiapas.jpg in Resources */,
+				4B4A629F1D5C205A00BE5046 /* tla.jpg in Resources */,
+				4B4A629A1D5C205A00BE5046 /* 8.jpg in Resources */,
 				4BE7EE481D43AE4B008E08AE /* cellHome.xib in Resources */,
-				4BE421BE1D452E1700E5C9F6 /* comida.jpg in Resources */,
-				4BE421BF1D452E1700E5C9F6 /* desayuno.jpg in Resources */,
+				4B4A62951D5C205A00BE5046 /* 2.jpg in Resources */,
+				4BE51E041D4EC3B60005794F /* Yucatán.jpg in Resources */,
+				4B4A62941D5C205A00BE5046 /* 10.jpg in Resources */,
 				4BE7EE321D43A7AF008E08AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,9 +323,11 @@
 				4BE421B31D44970000E5C9F6 /* Home.m in Sources */,
 				4BE7EE351D43A7AF008E08AE /* Navigation_Controller.xcdatamodeld in Sources */,
 				4BE7EE2C1D43A7AF008E08AE /* AppDelegate.m in Sources */,
+				4B466A6C1D5963FF00E6A284 /* cellStates.m in Sources */,
 				4BE7EE471D43AE4B008E08AE /* cellHome.m in Sources */,
 				4BE421C21D45543800E5C9F6 /* FoodDetails.m in Sources */,
 				4BE7EE291D43A7AF008E08AE /* main.m in Sources */,
+				4B466A681D59638E00E6A284 /* States.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,9 +14,10 @@
 @property  NSString *FoodDescription;
 @property  NSString *FoodPhoto;
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgMunicipality;
 
-@property (strong, nonatomic) IBOutlet UIImageView *imgFood;
-@property (strong, nonatomic) IBOutlet UILabel *lblFood;
+@property (strong, nonatomic) IBOutlet UILabel *lblMunicipality;
+
 @property (strong, nonatomic) IBOutlet UILabel *lblDescription;
 
 @end
